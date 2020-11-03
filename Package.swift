@@ -22,6 +22,6 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(name: "EyesXCUI",
                               url: "https://applitools.bintray.com/iOS/EyesXCUIPackage/8.8.1/EyesXCUI.zip",
-                              checksum: "41ba9a6ed71b3abe409c0096e5db3ed922a4ff2d036d0a7b0f136394fe168e44"),
+                              checksum: "8efdb0040ebbc7885cd6e0bc108ed45e410e33a8d762d87f2e0cc984154ed50a"),
     ]
 )
