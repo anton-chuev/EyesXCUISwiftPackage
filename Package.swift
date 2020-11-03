@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "EyesXCUI",
     platforms: [
-            .iOS(.v9), .macOS(.v10_15)],
+            .iOS(.v9)],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
@@ -22,7 +22,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(name: "EyesXCUI",
                               url: "https://applitools.bintray.com/iOS/EyesXCUIPackage/8.8.1/EyesXCUI.zip",
-                              checksum: "2537202933d87b748495bacca78b2c4bbb854c6b3fdeaccb028610cbe52feda1"),
+                              checksum: "8146e2a65ce2a81b1b980a8657028c8494989577e44e0c0763ec71b457e4d57f"),
         .testTarget(
             name: "EyesXCUITests",
             dependencies: ["EyesXCUI"]),
